@@ -1,0 +1,4 @@
+1. This is an example of duplicated code. 
+The lines could be added to a new method to prevent duplicated code.
+3. No, this is an example of feature envy. 
+Moving the method to the jenkins.model.Jenkins class would fix this.
