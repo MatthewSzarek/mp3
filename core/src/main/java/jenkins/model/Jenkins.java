@@ -522,6 +522,11 @@ public class Jenkins extends AbstractCIBase implements DirectlyModifiableTopLeve
      * Global default for {@link AbstractProject#getScmCheckoutRetryCount()}
      */
     /*package*/ int scmCheckoutRetryCount;
+    
+    public void updateAndTrim() {
+    	this.updateComputerList();
+        this.trimLabels();
+    }
 
     /**
      * {@link View}s.
